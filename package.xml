@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package>
+    <name>Dolphin_ScrollUp</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Dolphin Scrollup is an extension to scroll up pages from bottom to top of your store. It's fully customisable.</summary>
+    <description>Dolphin Scrollup is an extension to scroll up pages from bottom to top of your store. It's fully customisable from admin.&#xD;
+&#xD;
+Dolphin Scrollup Features&#xD;
+&#xD;
+1. 100% free to use and easy to install via Magento Connect.&#xD;
+2. Requires no changes in magenta core files.&#xD;
+3. Developed using Prototype.so No Jquery Confict on your store.&#xD;
+4. Custom Set Page Scroll Speed.&#xD;
+5. Custom Set Page Scroll Offset (Offset- Set Stop Scroll from top of part).&#xD;
+6. Custom Set Page Scroll Point (Point - Visible Scroll images/text after set point).&#xD;
+7. Custom Set Page Scroll Link Type (Type : Images/Link/Pill/Tab).&#xD;
+8. Custom Set Scroll Text which display on Front.&#xD;
+9. Allows you to upload your custom image for Link type 'Image'.&#xD;
+10. Use Prototype lib instead of jQuery to avoid javascript conflicts and errors.&#xD;
+11. Containing compress javascript, css.&#xD;
+</description>
+    <notes>This extension is compatible with Magento CE 1.4 to 1.7.</notes>
+    <authors><author><name>ankitdolphin</name><user>ankitdolphin</user><email>ankit@dolphinwebsolution.com</email></author></authors>
+    <date>2013-04-27</date>
+    <time>08:45:06</time>
+    <contents><target name="magecommunity"><dir name="Dolphin"><dir name="Scrollup"><dir name="Block"><file name="Scrollup.php" hash="302d5e697a9bd3f8e86ce0ce0971084d"/></dir><dir name="Helper"><file name="Data.php" hash="c99f97430b9b215953d102bbbda977a2"/></dir><dir name="Model"><dir name="System"><file name="Elementtype.php" hash="f88fa59b901df4436c918ac8a083474a"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="7460ff66dc47f31fa7db5f4dbd19c79a"/><file name="config.xml" hash="b2a37167bd320ef5d0b7f9fea6273096"/><file name="system.xml" hash="5749f9c9216297d9eb54db3b167f1e49"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="template"><dir name="dl_scrollup"><file name="init.phtml" hash="29e123fd87decb5e88f37c5496bc6cd3"/></dir></dir><dir name="layout"><file name="scrollup.xml" hash="9ea9717eb04b3f00f56a6da89bf7bb75"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Dolphin_Scrollup.xml" hash="22da41b03c49aea0b5b43f0ef7ac74e9"/></dir></target><target name="mageweb"><dir name="."><dir name="js"><dir name="dolphin"><dir name="scrollup"><file name="DLSU.js" hash="2837db1dacf88b61e53d7a67d418e310"/></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="default"><dir name="default"><dir name="dolphin"><dir name="scrollup"><dir name="css"><file name="scrollup.css" hash="714a8f3c8a1b3f476b459d3151df3090"/></dir></dir></dir></dir></dir></dir></target><target name="magemedia"><dir name="dlsu"><dir name="default"><file name="scrollup.png" hash="cfa0168d68e1c0c4992e0172b83c6950"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
