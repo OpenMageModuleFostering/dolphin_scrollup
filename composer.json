@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Dolphin_ScrollUp",
+    "name": "OpenMageModuleFostering\/Dolphin_ScrollUp",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "Dolphin Scrollup is an extension to scroll up pages from bottom to top of your store. It's fully customisable.",
     "authors": [
-    {
-        "name": "ankitdolphin",
-        "email": "ankit@dolphinwebsolution.com"
-    }
-],
+        {
+            "name": "ankitdolphin",
+            "email": "ankit@dolphinwebsolution.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
